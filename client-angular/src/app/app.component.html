@@ -1,0 +1,9 @@
+<button type = "button" (click) = "jRequest()">Konichiwa</button>
+
+<ul *ngFor = "let lista of listProd">
+  <li>ID: {{lista._id.$oid}}</li>
+  <li>Nome prodotto: {{lista.product_name}}</li>
+  <li>Fornitore: {{lista.supplier}}</li>
+  <li>Quantita': {{lista.quantity}}</li>
+  <li>Costo all'unita': {{lista.unit_cost}}</li>
+</ul>
